@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login_register_bg"
+    tools:ignore="NotSibling">
+
+    <ImageView
+        android:id="@+id/circle_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-600dp"
+        android:layout_marginTop="-500dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/circle">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="210dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/app_logo" />
+
+    <LinearLayout
+        android:id="@+id/login_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:elevation="56dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_text_view"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/login_text"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sign_up_text_view"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_login_shape"
+            android:gravity="center"
+            android:onClick="toRegister"
+            android:paddingStart="16dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+        <ImageView
+            android:id="@+id/anonymus_login"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_facebook_meta" />
+
+        <ImageView
+            android:id="@+id/twitter_login"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_iconmonstr_twitter_1" />
+
+        <ImageView
+            android:id="@+id/google_login"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_googleplus" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="270sp"
+        android:layout_height="550sp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_card_bg"
+            android:fadingEdge="vertical"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/login_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/login_text"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:paddingEnd="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/email_text"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:drawableEndCompat="@drawable/ic_baseline_mail_24" />
+
+            <EditText
+                android:id="@+id/loginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/edit_text_border_login_register"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:paddingStart="16dp"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="16sp"
+                tools:ignore="LabelFor,RtlSymmetry" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/password_txt"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:drawableEndCompat="@drawable/ic_pass"
+                tools:ignore="RtlSymmetry" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:boxBackgroundMode="none"
+                style="@style/MaterialAlertDialog.Material3.Title.Text.CenterStacked">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:textAlignment="textStart"
+                    android:inputType="textPassword"
+                    android:background="@drawable/edit_text_border_login_register"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:importantForAutofill="no"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:longClickable="false"
+                    tools:ignore="LabelFor,RtlSymmetry"
+                    android:ems="10"/>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/login_reg_button_bg"
+                android:text="@string/login_btn_text"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:visibility="gone"
+                android:id="@+id/login_animation"
+                android:layout_width="50dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:padding="6dp"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/login_update"
+                tools:ignore="HardcodedText"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="-400dp"
+        android:layout_marginBottom="-490dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/circle" />
+
+</RelativeLayout>

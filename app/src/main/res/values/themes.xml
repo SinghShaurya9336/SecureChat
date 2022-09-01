@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SecureChat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#D204212C</item>
+        <item name="colorPrimaryVariant">#0A4860</item>
+        <item name="colorOnPrimary">#AE4156</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#AE4156</item>
+        <item name="colorSecondaryVariant">#A15261</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.SecureChat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.SecureChat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.SecureChat.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SecureChat</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Sign Up</string>
+    <string name="email_text">Email / User Name</string>
+    <string name="password_txt">Password</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">Sign up</string>
+    <string name="secure_chat">Secure Chat</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_btn">Register</string>
+    <string name="login_btn_text">Login</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="user_name_txt">User Name</string>
+    <string name="send_txt">Send</string>
+    <string name="receive_txt">Receive</string>
+    <string name="receive_button_description">Receive button</string>
+    <string name="send_button_description">Send button</string>
+    <string name="send">SEND</string>
+    <string name="send_massage_txt">Enter Your Massage Here!</string>
+    <string name="encrypted_text_hint">Your Encrypted text will be shown here</string>
+    <string name="app_information">This is an Secure Chat platform where you can send and receive massage in Encrypted form. Please entre your Key to proceed.</string>
+    <string name="group_key_hint_text">Enter your group KEY</string>
+    <string name="default_web_client_id_auth">469516848939-tcu387dnh9l8dn9t2l5dmhd8rdhc0fji.apps.googleusercontent.com</string>
+    <string name="create">Create</string>
+    <string name="title_activity_messaging">messaging</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

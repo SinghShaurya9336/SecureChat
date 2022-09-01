@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/button_bg.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/circle.xml" value="0.1640625" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/coursor.xml" value="0.29635416666666664" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/cursor.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/edit_text_border.xml" value="0.290625" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_bg.xml" value="0.24488888888888888" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_facebook_meta.xml" value="0.2481981981981982" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_free_sample_by_wix.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_googleplus.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_home_bg.xml" value="0.24488888888888888" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_iconmonstr_twitter_1.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_login_shap.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_login_shape.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_main_bg.xml" value="0.1640625" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_pass.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_recevie.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_send.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/ic_wave_bg.xml" value="0.290625" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/login_card_bg.xml" value="0.6" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/main_bg.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/parabola.xml" value="0.24488888888888888" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/pass_text_border.xml" value="0.290625" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/send_button_bg.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/drawable/send_recevie_button_bg.xml" value="0.25135135135135134" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout-land-v28/activity_main.xml" value="0.23236331569664903" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout-land/activity_login.xml" value="0.21686746987951808" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout-land/activity_main.xml" value="0.1984352773826458" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout-land/activity_register.xml" value="0.2" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout-land/activity_welcome.xml" value="0.23236331569664903" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout-v28/activity_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout/activity_roughactivity.xml" value="0.2" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Android_APPs/SecureChat/app/src/main/res/layout/activity_welcome.xml" value="0.5299295774647887" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/circle.xml" value="0.279" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/circle_for_button.xml" value="0.189" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/create_key.xml" value="0.2035" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/edit_text_border.xml" value="0.253" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/edit_text_border_login_regster.xml" value="0.1" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/gradiant_animation.xml" value="0.1065" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/gradiant_center.xml" value="0.1995" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/gradiant_start.xml" value="0.253" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/ic_googleplus.xml" value="0.2035" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/ic_receive.xml" value="0.1065" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/ic_send.xml" value="0.189" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/login_card_bg.xml" value="0.19" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/login_register_bg.xml" value="0.19" />
+        <entry key="..\:/SecureChat/app/src/main/res/drawable/welcome_image.xml" value="0.1" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout-land/activity_create_key.xml" value="0.12" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout-land/activity_login.xml" value="0.19099099099099098" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout-land/activity_message_send.xml" value="0.17291666666666666" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout-land/activity_receive_page.xml" value="0.190625" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout-land/activity_register.xml" value="0.19099099099099098" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout-land/activity_room.xml" value="0.17552083333333332" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout-land/activity_welcome.xml" value="0.16486486486486487" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_create_key.xml" value="0.264" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_message_send.xml" value="0.264" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_receive_page.xml" value="0.264" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_room.xml" value="0.264" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_splash.xml" value="0.20018115942028986" />
+        <entry key="..\:/SecureChat/app/src/main/res/layout/activity_welcome.xml" value="0.16576086956521738" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable-v24/login_register_bg.xml" value="0.1" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/added_chat_view_bg.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/added_chat_view_bg2.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/chat_bg.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/edit_text_border.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/edit_text_border_login_register.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/gradiant_animation.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/gradiant_center.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/gradiant_end.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/gradiant_start.xml" value="0.1755" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.209" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.1975" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/ic_home_bg.xml" value="0.1205" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/ic_logout.xml" value="0.1205" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/ic_send.xml" value="0.1655" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/login_card_bg.xml" value="0.209" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/drawable/logout.xml" value="0.251" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout-land/activity_create_key.xml" value="0.2294792586054722" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout-land/activity_login.xml" value="0.2" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout-land/activity_register.xml" value="0.176" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout-v26/chat_item.xml" value="0.2734375" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/activity_create_key.xml" value="0.264" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/activity_history_page.xml" value="0.22530996152201796" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/activity_message_send.xml" value="0.23738738738738738" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/activity_receive_page.xml" value="0.264" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/activity_room.xml" value="0.536" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/chat_item.xml" value="0.2406392694063927" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/chat_item1.xml" value="0.264" />
+        <entry key="..\:/SecureChat_Versions/Secure Chat-v3.0/SecureChat/app/src/main/res/layout/fragment_messaging.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout-land/activity_login.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout-land/activity_welcome.xml" value="0.2099099099099099" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_login.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_message_send.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_register.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_room.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_roughactivity.xml" value="0.4" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_splash.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_welcome.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/AndroidStudioProjects/SecureChat/app/src/main/res/layout/activity_welcome1.xml" value="0.21126126126126127" />
+        <entry key="..\:/Users/91800/Desktop/New folder/SecureChat/app/src/main/res/layout/activity_login.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/New folder/SecureChat/app/src/main/res/layout/activity_message_send.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/activity_create_key.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/activity_history_page.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/activity_login.xml" value="0.22522522522522523" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/activity_message_send.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/activity_receive_page.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/activity_register.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/activity_room.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/Secure Chat/SecureChat/app/src/main/res/layout/chat_item.xml" value="0.23738738738738738" />
+        <entry key="..\:/Users/91800/Desktop/SecureChat/app/src/main/res/drawable/ic_facebook_meta.xml" value="0.165" />
+        <entry key="..\:/Users/91800/Desktop/SecureChat/app/src/main/res/layout/activity_create_key.xml" value="0.2" />
+        <entry key="..\:/Users/91800/Desktop/SecureChat/app/src/main/res/layout/activity_login.xml" value="0.1581081081081081" />
+        <entry key="..\:/Users/91800/Desktop/SecureChat/app/src/main/res/layout/activity_message_send.xml" value="0.1581081081081081" />
+        <entry key="..\:/Users/91800/Desktop/SecureChat/app/src/main/res/layout/activity_receive_page.xml" value="0.2" />
+        <entry key="..\:/Users/91800/Desktop/SecureChat/app/src/main/res/layout/activity_register.xml" value="0.1581081081081081" />
+        <entry key="..\:/Users/91800/Desktop/SecureChat/app/src/main/res/layout/activity_room.xml" value="0.23738738738738738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

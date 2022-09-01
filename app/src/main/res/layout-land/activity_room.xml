@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomActivity"
+    android:padding="8dp"
+    android:background="@drawable/gradiant_animation"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="@string/welcome_text"
+            android:textColor="@color/white_gray"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/user_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins"
+            android:text="User_name"
+            android:textColor="@color/white_gray"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_vertical"
+            android:text="@string/app_information"
+            android:textColor="@color/white_gray"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/relative_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout1"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+        <EditText
+            android:id="@+id/group_key_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="52dp"
+            android:background="@drawable/edit_text_border"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textSize="20sp"
+            android:importantForAutofill="no"
+            android:hint="@string/group_key_hint_text"
+            android:textColorHint="#AB959595"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            tools:ignore="RtlSymmetry"
+            android:inputType="text" />
+
+        <ImageButton
+            android:id="@+id/to_send_message_button"
+            android:layout_weight="1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/send_button_bg"
+            app:srcCompat="@drawable/ic_send"
+            android:padding="6dp"
+            android:contentDescription="button to your group"
+            android:onClick="toMessageSend"
+            tools:ignore="HardcodedText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_layout1"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have key?"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:onClick="toCreateKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Make one!"
+            tools:ignore="HardcodedText,UsingOnClickInXml"
+            android:textColor="#AE4156"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

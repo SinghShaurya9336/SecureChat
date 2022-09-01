@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:background="@drawable/gradiant_animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    tools:context=".MessageSendActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/send"
+            android:textColor="@color/white_gray"
+            android:textSize="24sp"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:text="Receive"
+            android:onClick="toReceive"
+            tools:ignore="ContentDescription,HardcodedText" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/send_massage_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/linear_layout1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/send_massage_txt"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_gray" />
+
+    <Button
+        android:id="@+id/encrypt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_massage_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@drawable/ic_arrow_down"
+        android:text="Encrypt"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/cypher_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/encrypt_btn"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/encrypted_text_hint"
+        android:padding="8dp"
+        android:textColor="@color/white_gray"
+        android:textColorHint="@color/white_gray"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cypher_text_view"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/send_massage_btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circle_for_btn"
+            android:drawableBottom="@drawable/ic_send"
+            android:text="Send"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="52dp"
+            android:text="Massage History"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
